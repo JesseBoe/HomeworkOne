@@ -1,0 +1,240 @@
+Body{
+    margin:0;
+    padding: 0;
+    background-image: url("../images/bg.jpeg");
+    background-position-y: 64px;
+    background-repeat: no-repeat;
+}
+.Container{
+    margin-left: 25%;
+    margin-right:25%;
+    margin-top:-8px;
+    overflow: hidden;
+}
+.TealHeaderBox{
+    position: relative;
+    float:left;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 71px;
+}
+.MyNameText{
+    position: relative;
+    margin-left: 46px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.LinkLeft{
+    position: relative;
+    bottom: 14px;
+    color: gray;
+    float:right;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.LinkMiddle{
+    position: relative;
+    bottom: 14px;
+    color: gray;
+    float: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 37px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.LinkRight{
+    position: relative;
+    bottom: 14px;
+    color: gray;
+    float: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Header::after{
+    content: "";
+	display: block;
+    clear: both;
+}
+.BackgroundImage{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    z-index: -1;
+}
+.Header{
+    position: relative;
+}
+.image{
+    width: 100%;
+    position: absolute;
+    left:0;
+    z-index: -1;
+    border-width: 2px, 0px, 0px, 0px;
+    /* Like litterally why is css like this */
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #cccccc;
+    border-style: solid;
+}
+.Content{
+    position: absolute;
+    overflow: hidden;
+    top: 100px;
+    height: auto;
+    width: 50%;
+}
+.ContentBox{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+    border-color: #DEDEDE;
+    border-style: solid;
+    border-width: 1px;
+}
+.ContentBox::after{
+    content: "";
+	display: block;
+    clear: both;
+}
+.PageHeader{
+    color: #4AAAA5;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#InContentBox{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 1px, 0px, 0px, 0px;
+    /* Like litterally why is css like this */
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #cccccc;
+    border-style: solid;
+}
+#me{
+    margin-top: 30px;
+    margin-right: 25px;
+    float: left;
+}
+
+#AboutMeText{
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.ForumText{
+    color: #7777A3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.foot{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    border-top: 8px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-color: #4AAAA5;
+    border-style: solid;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ForumBox{
+    resize: none;
+    width: 100%;
+    color: #7777A3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#SubmitButton{
+    width: 116px;
+    height: 40px;
+    background-color: #4AAAA5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 4px;
+    border: 0px solid blue;
+    margin-bottom: 20px;
+}
+
+.PortfolioShowcaseBox{
+    float: left;
+    position: relative;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:219px;
+    height: 165px;
+    overflow: hidden;
+}
+
+.PortfolioShowcaseImage{
+    float: left;
+    width:219px;
+    height: 165px;
+}
+
+.PortfolioShowcaseText{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: #4AAAA5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#MoveDown{
+    bottom: -120px;
+}
+
+a:link{
+    color: gray;
+    text-decoration-line: none;
+}
+a:hover{
+    color: gray;
+    text-decoration-line: none;
+}
+a:visited{
+    color: gray;
+    text-decoration-line: none;
+}
+a:focus{
+    color: gray;
+    text-decoration-line: none;
+}
